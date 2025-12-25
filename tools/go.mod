@@ -1,6 +1,6 @@
 module go.opentelemetry.io/contrib/tools
 
-go 1.23.0
+go 1.24.0
 
 exclude github.com/blizzy78/varnamelen v0.6.1
 
@@ -16,7 +16,7 @@ require (
 	go.opentelemetry.io/build-tools/gotmpl v0.20.0
 	go.opentelemetry.io/build-tools/multimod v0.20.0
 	golang.org/x/exp v0.0.0-20250305212735-054e65f0b394
-	golang.org/x/tools v0.31.0
+	golang.org/x/tools v0.38.0
 	golang.org/x/vuln v1.1.4
 )
 
@@ -212,14 +212,16 @@ require (
 	go.uber.org/automaxprocs v1.6.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
-	golang.org/x/crypto v0.36.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
 	golang.org/x/exp/typeparams v0.0.0-20250305212735-054e65f0b394 // indirect
-	golang.org/x/mod v0.24.0 // indirect
-	golang.org/x/net v0.37.0 // indirect
-	golang.org/x/sync v0.12.0 // indirect
-	golang.org/x/sys v0.31.0 // indirect
-	golang.org/x/telemetry v0.0.0-20250305155315-2a181eac97a3 // indirect
-	golang.org/x/text v0.23.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/telemetry v0.0.0-20251008203120-078029d740a8 // indirect
+	golang.org/x/text v0.31.0 // indirect
+	golang.org/x/tools/go/expect v0.1.1-deprecated // indirect
+	golang.org/x/tools/go/packages/packagestest v0.1.1-deprecated // indirect
 	google.golang.org/protobuf v1.36.5 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
